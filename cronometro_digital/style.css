@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Lekton;
+}
+
+.wrapper{
+    background-color: #262626;
+    width: 150px;
+    position: relative;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px black;
+
+}
+
+.tempo{
+    position: relative;
+    bottom: 20px;
+    color: white;
+}
+
+.point{
+    position: relative;
+    bottom: 16px;
+}
+
+.tempo_text{
+    color: white;
+    font-size: 72px;
+    text-shadow: 1px 1px 10px 1px black;
+}
+
+.botoes{
+    display: flex;
+    gap: 80px;
+    position: relative;
+    bottom: 200px;
+    left: 472px;
+}
+
+.btn{
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Fira Sans';
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 250ms;
+}
+
+#iniciar{
+    background-color: #22c55e;
+    position: relative;
+    right: 10px;
+
+}
+
+#iniciar:hover{
+    background-color: #16a34a;
+}
+
+#resetar{
+    background-color: #0284c7;
+}
+
+#resetar:hover{
+    background-color: #0369a1;
+}
+
+#parar{
+    background-color: #ef4444;
+    position: relative;
+    left: 5px;
+}
+
+#parar:hover{
+    background-color: #dc2626;
+}
